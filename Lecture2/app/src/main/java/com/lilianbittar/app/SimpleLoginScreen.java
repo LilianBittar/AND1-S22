@@ -1,38 +1,33 @@
 package com.lilianbittar.app;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.text.Editable;
-import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.material.textfield.TextInputEditText;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class SimpleLoginScreen extends AppCompatActivity {
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.simple_login);
 
-        Button b = findViewById(R.id.button1);
-        Button b1 = findViewById(R.id.button2);
-        ProgressBar pb = findViewById(R.id.progressBar);
+        EditText email = findViewById(R.id.email);
+        EditText password = findViewById(R.id.password);
+        Button b = findViewById(R.id.login);
 
-        b.setOnClickListener(view -> {
-           int current=  pb.getProgress();
-          pb.setProgress(--current);
-        });
-         b1.setOnClickListener(view -> {
-             int current=  pb.getProgress();
-             pb.setProgress(++current);
-
-         });
+       b.setOnClickListener(view -> {
+           if (email.getText().toString().equals("user@email.com") && password.getText().toString().equals("ILOVEAND")){
+               Toast.makeText(this, "welcome dum dum!", Toast.LENGTH_LONG).show();
+           }
+           else {
+               Toast.makeText(this, "dum dum!", Toast.LENGTH_LONG).show();
+           }
+       });
 
 
 
