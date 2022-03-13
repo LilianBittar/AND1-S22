@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/repos/AND1-S22/Lecture2/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/repos/AND1-S22/Lecture2/app/src/main/res/layout/externalizing_reaources.xml" value="0.536" />
+        <entry key="..\:/repos/AND1-S22/Lecture2/app/src/main/res/layout/localization.xml" value="0.28072916666666664" />
         <entry key="..\:/repos/AND1-S22/Lecture2/app/src/main/res/layout/simple_login.xml" value="0.25" />
+        <entry key="..\:/repos/AND1-S22/Lecture2/app/src/main/res/layout/switch_landscape.xml" value="0.28072916666666664" />
+        <entry key="..\:/repos/AND1-S22/Lecture2/app/src/main/res/layout/switches.xml" value="0.28072916666666664" />
       </map>
     </option>
   </component>
