@@ -1,0 +1,18 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:background="@color/teal_200"
+        android:rotation="13"
+        android:rotationX="-4"
+        android:rotationY="33"
+        android:text="add" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:rotationX="-33"
+        android:rotationY="-67"
+        android:text="delete" />
+</merge>

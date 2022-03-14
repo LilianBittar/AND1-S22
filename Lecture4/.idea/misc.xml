@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/repos/AND1-S22/Lecture4/app/src/main/res/drawable/ic_baseline_audiotrack_24.xml" value="0.3305" />
+        <entry key="..\:/repos/AND1-S22/Lecture4/app/src/main/res/drawable/ic_favorite.xml" value="0.3305" />
+        <entry key="..\:/repos/AND1-S22/Lecture4/app/src/main/res/layout/activity_1.xml" value="0.4510416666666667" />
+        <entry key="..\:/repos/AND1-S22/Lecture4/app/src/main/res/layout/activity_3.xml" value="0.4510416666666667" />
+        <entry key="..\:/repos/AND1-S22/Lecture4/app/src/main/res/layout/activity_activty2.xml" value="0.4510416666666667" />
+        <entry key="..\:/repos/AND1-S22/Lecture4/app/src/main/res/layout/activity_main.xml" value="0.36886005560704355" />
+        <entry key="..\:/repos/AND1-S22/Lecture4/app/src/main/res/layout/content_navigation_drawer.xml" value="0.4984375" />
+        <entry key="..\:/repos/AND1-S22/Lecture4/app/src/main/res/layout/merge.xml" value="0.47547169811320755" />
+        <entry key="..\:/repos/AND1-S22/Lecture4/app/src/main/res/menu/main_menu.xml" value="0.46197916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
