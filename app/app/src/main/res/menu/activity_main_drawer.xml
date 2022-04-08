@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/ic_baseline_first_page_24"
+            android:title="@string/first_fragment"/>
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/ic_baseline_filter_2_24"
+            android:title="@string/second_fragment"/>
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/ic_baseline_last_page_24"
+            android:title="@string/third_fragment"/>
+    </group>
+
+    <item android:title="Sub items">
+        <menu>
+            <item
+                android:id="@+id/sub_itm_1"
+                android:icon="@drawable/ic_baseline_favorite_24"
+                android:title="@string/sub_item_1"/>
+            <item
+                android:id="@+id/sub_itm_2"
+                android:icon="@drawable/ic_baseline_favorite_border_24"
+                android:title="@string/sub_item_2"/>
+        </menu>
+    </item>
+
+</menu>
