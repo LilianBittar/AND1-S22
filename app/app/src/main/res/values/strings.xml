@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">app</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="third_fragment">Third Fragment</string>
+    <string name="sub_item_1">Sub item 1</string>
+    <string name="sub_item_2">Sub item 2</string>
+    <string name="action_setting">action_setting</string>
+</resources>
